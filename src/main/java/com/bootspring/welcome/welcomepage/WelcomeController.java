@@ -16,6 +16,6 @@ public class WelcomeController {
 	@RequestMapping(value="/welcome/{name}", method=RequestMethod.GET)
 	private String sendWelcome(@PathVariable String name) {
 		
-		return "Hey "+ name +" welcome to Spring project :) :)";
+		return "Hey "+ name +" welcome to Spring project :) :) ...";
 	}
 }
